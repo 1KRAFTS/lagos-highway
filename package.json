@@ -1,0 +1,31 @@
+{
+  "name": "temple-run-bot-chase",
+  "version": "1.0.0",
+  "description": "A running game where a man is chased by a bot that attacks with word lasers.",
+  "main": "src/main.ts",
+  "scripts": {
+    "start": "tsc && node dist/main.js",
+    "build": "tsc",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/temple-run-bot-chase.git"
+  },
+  "keywords": [
+    "game",
+    "typescript",
+    "running",
+    "chase"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^4.5.4",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.7",
+    "@types/express": "^4.17.13"
+  }
+}
